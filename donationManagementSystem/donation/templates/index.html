@@ -1,0 +1,217 @@
+{% load static %}
+<html>
+<head>
+
+</head>
+<body>
+{% include 'navigation.html' %}
+<hr class="mt-0">
+<div class="container-fluid" id="home">
+
+    <div class="row mb-5">         <!-- Start Row -->
+        <div class="col-lg-6 ">     <!-- Start 1st Column -->
+            <p class="text-center pt-3 mb-0" style="...">Reduce wastage of Needy Items</p>
+            <h3 class="px-5 pt-5" style = "...">
+                Help others without any reason and spread humanity
+            </h3>
+            <h3 class="px-5 pt-3" style="..."> Always give without remembering and help without expectation</h3>
+            <div class="px-5">
+                <a href="" class="btn btn-success">Read More <i class="fas fa-angle-double-right"></i></i></a>
+                <a href="" class="btn btn-primary">Donate Now <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>    <!-- End 1st Column -->
+
+        <div class="col=lg-6 pl-5">      <!-- Start 2nd Column -->
+            <img class="img-thumbnail" width="560" height="315" src="{% static 'images/donationicon2.png' %}" >
+        </div>     <!-- End 2nd Column -->
+    </div>        <!-- End Row -->
+
+
+    <div class="container-fluid" id="about">
+
+        <div class="row">    <!-- Start Row -->
+
+
+             <div class="col-lg-6 mb-4 pl-5">    <!-- Start 1st Column -->
+                 <img class="img-thumbnail" width="400" height="315" src="{% static 'images/donationicon3.png' %}" >
+             </div>      <!-- End 1st Column -->
+
+             <div class="col-lg-6">     <!-- Start 2nd Column -->
+                 <h2 class="text-center pt-3 mb-0 text-secondary" style="font-size :30px">About Us</h2>
+                 <p class="px-5 pt-5" style="font-size : 20px">
+                    This system provides a platform to donor where they can donate to the needy ones from their own devices.
+                    This platform helps needy people all over the world.
+
+                </p>
+                 <div class="px-5">
+                    <a href="" class="btn btn-success">Read More <i class="fas fa-angle-double-right"></i></a>
+                 </div>
+             </div>    <!-- End 2nd Column -->
+        </div>      <!-- End Row -->
+
+    </div>
+
+</div>
+
+
+<!-- carousel start -->
+<div class="container mt-3 mb-5">
+    <h1 class="text-center text-danger font-weight-bold mb-3" style="font-family : Monotype corsiva">--Our special Services--</h1>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+        <div class="carousel-inner">
+
+           <div class="carousel-item active">
+
+               <div class="row">
+
+                   <div class="col-lg-4 col-sm-4">
+                       <div class="card" style="...">
+                           <img class="card-img-top pt-5" src="{% static 'images/donationclothes.png' %}" alt="Card image" style="width:100% ; height : 200px">
+                           <div class="card-body">
+                               <h4 class="card-title text-center">Clothes Donation</h4>
+                               <p class="card-text text-justify">Be a cause of someone's happiness.
+                                   Donate your clothes to needy people and make them happy</p>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-sm-4">
+                       <div class="card" style="width:300px">
+                           <img class="card-img-top pt-5" src="{% static 'images/donationfood.png' %}" alt="Card image" style="width:100% ; height : 200px">
+                           <div class="card-body">
+                               <h4 class="card-title text-center">Food Donation</h4>
+                               <p class="card-text text-justify">Be a cause of someone's happiness
+                               Donate food to needy people. reduce the hunger.</p>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="col-lg-4 col-sm-4">
+                       <div class="card" style="width:300px">
+                           <img class="card-img-top pt-5" src="{% static 'images/donationshoes.png' %}" alt="Card image" style="width:100% ; height : 200px">
+                           <div class="card-body">
+                               <h4 class="card-title text-center">Footwear Donation</h4>
+                               <p class="card-text text-justify">Be a cause of someone's happiness
+                               Donate food to needy people. reduce the hunger</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</div>      <!-- Carousel end -->
+
+
+<div class="row" id="donate">      <!-- Start Row -->
+    <div class="col-lg-6" style="margin:auto">   <!-- Start 1st Column -->
+
+        <h3 class="text-center pt-5" style="color : green">
+            Best way to help Others
+        </h3>
+        <p class="text-center" style="color:red ; font-size :20px">Join us and become donor</p>
+
+        <center><a href="" class="btn btn-primary mt-5" >Donate Now <i class="fas fa-angle-double-right"></i></a>
+        </center>
+    </div>   <!-- End 1st Column -->
+
+    <div class="col-log-6" style="margin:auto">    <!-- Start 1st Column -->
+
+        <h3 class="text-center pt-5" style="color : green">
+            Become a Volunteer today
+        </h3>
+        <p class="text-center" style="color: red ; font-size: 20px">One of the great gift you can give is your time</p>
+
+        <center><a href="" class="btn btn-primary mt-5">Volunteer Now <i class="fas fa-angle-double-right"></i></a>
+        </center>
+    </div>   <!-- End 1st Column -->
+</div>     <!-- End Row -->
+
+
+<!-- Start Contact Us -->
+<div class="container text-center mt-5" id="contact">
+    <h1 class="text-center font-weight-bold" style="font-family : Monotype Corsiva;color: #EE1D29">--Contact Us--</h1>
+
+    <div class="row mt-5">
+        <div class="col-lg-3 col-sm-6">
+            <h4><i class="fas fa-phone-square"></i>Contact</h4>
+            <p class="mt-3 text-danger font-weight-bold"><a href="tel:+9186445668567">+91 86445668567</a></p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <h4><i class="fas fa-phone-square"></i>Send Mail</h4>
+            <p class="mt-3 text-danger font-weight-bold"><a href="donation8@gmail.com">mailto:donation@gmail.com</a></p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <h4><i class="fas fa-phone-square"></i>Office Address</h4>
+            <p class="mt-3 text-danger font-weight-bold"><a href="XYZ Colony, Hyderabad">Address:XYZ colony,Hyderabad</a></p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <h4><i class="fas fa-phone-square"></i>Office Hours</h4>
+            <p class="mt-3 text-danger font-weight-bold"><a href="Morning:10:00AM upto Evening:5:00PM">10:00AM to 5:00PM</a></p>
+        </div>
+    </div>
+</div>     <!-- End Contact Us Container -->       <!-- End Contact Us -->
+
+
+<!-- Start Footer -->
+<footer class="container-fluid text-white mt-5" id="footer" style="border-top: 3px solid #DC3545; background-color:black">
+    <div class="container">       <!-- Start Footer Container -->
+        <div class="row py-3">       <!-- Start Footer Row -->
+            <div class="col-md-6 text-right">        <!-- Start Footer 1st Column -->
+                    <small>Copyright &copy<script>document.write(new Date().getFullYear());</script>All Rights Reserved|This Website is made with <i class="fas fa-heart text-warning"></i> by <a href="#" target="_blank">TeamWork</a></small>
+            </div>         <!-- End Footer 2nd Column -->
+        </div>          <!-- End Footer Row -->
+
+            <div class="scrolltop float-right">
+                <i class="fa fa-arrow-up" onclick="topFunction()" id="scrollbtn"></i>
+            </div>
+    </div>        <!-- End Footer Container -->
+
+</footer>       <!-- End Footer -->
+
+
+
+
+<script>
+scrollbutton = document.getElementById("scrollbtn");
+window.onscroll=function(){scrollFunction()};
+
+function scrollFunction()
+{
+if(document.body.scrollTop>20 || document.documentElement.scrollTop>20)
+{
+scrollbutton.style.display="block";
+}
+else
+{
+scrollbutton.style.display="none";
+}
+}
+
+function topFunction()
+{
+document.body.scrollTop = 0;//safari
+document.documentElement.scrollTop = 0;//for chrome
+}
+</script>
+</body>
+</html>
